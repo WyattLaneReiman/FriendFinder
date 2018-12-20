@@ -1,0 +1,113 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <title>FriendFinder</title>
+</head>
+<body>  
+    <div class="jumbotron">
+  <h1 class="display-4">Friend Finder</h1>
+  <hr class="my-4">
+  <p>Answer a few basic questions.</p>
+  <p class="stuff">Then find the friend with the greatest compatibility!</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Go To Survey</a>
+</div>
+
+<style>
+
+.jumbotron {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h1 {
+    font-weight: bold!important;
+}
+p {
+    font-size: 1.75em;
+    font-weight: bold!important;
+}
+.btn {
+   margin: 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.stuff {
+    padding-bottom: 20px;
+}
+</style>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder Pro</title>
+
+	<!-- Link to the jQuery Library -->
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  	<!-- Including Font Awesome Icons -->
+  	<script src="https://use.fontawesome.com/b38c8ed4c7.js"></script>
+
+	<!-- Link to reset stylesheet -->
+	<link rel="stylesheet" href="css/reset.css">
+
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Compiled and minified Materialize CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+	<!-- Compiled and minified Materialize JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+          
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper black">
+				<i class="fa fa-address-book-o fa-5x" aria-hidden="true" id=logo-icon></i>
+				<a href="/" class="brand-logo" id="logo">Friend Finder</a>
+				<ul class="right hide-on-med-and-down" id="head-nav-links">
+					<li><a href="/survey">Survey</a></li>
+					<li><a href="/api/friends">API Friends List</a></li>
+					<li><a href=https://github.com/WyattLaneReiman/FriendFinder>GitHub Repo</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 z-depth-5 mainpanel">
+					<div id="mainpanel-content">
+						<h1>Friend Finder</h1>
+						<div class="divider"></div>
+						<h2>Answer a few basic questions.</h2>
+						<h2>Find the friend with the greatest compatibility!</h2>
+						<a href="/survey">
+							<button class="btn waves-effect waves-light" type="submit" name="action">Go to Survey
+								<i class="material-icons right">send</i>
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html>
