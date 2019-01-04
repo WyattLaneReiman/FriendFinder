@@ -1,6 +1,6 @@
 var friendsArray = [
 	{
-		name: 'Scooter',
+		name: 'John',
 		photo: 'http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-15.jpg',
 		scores: [
 			'1',
@@ -32,7 +32,7 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Spencer',
+		name: 'Chris',
 		photo: 'http://cdn3-www.cattime.com/assets/uploads/2011/08/best-kitten-names-1.jpg',
 		scores: [
 			'4',
@@ -48,7 +48,7 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Zackariah',
+		name: 'Bob',
 		photo: 'https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg',
 		scores: [
 			'5',
@@ -64,7 +64,7 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Cloe',
+		name: 'Floyd',
 		photo: 'http://4.bp.blogspot.com/-HTvSYzA-pO4/UgQb4Zh_u0I/AAAAAAAAEuI/XwhtogT_1tA/s1600/3+cute2.jpg',
 		scores: [
 			'1',
@@ -80,7 +80,7 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Mrs. Piggy',
+		name: 'Mr. Hat',
 		photo: 'http://img.mindbodygreen.com/image/upload/c_limit,w_738,f_auto/ftr/Miss-Piggy-large-tonya-312.jpg',
 		scores: [
 			'1',
@@ -96,7 +96,7 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Beyonce Knowles',
+		name: 'Sean',
 		photo: 'http://www.billboard.com/files/styles/article_main_image/public/media/beyonce-feb-2014-billboard-650.jpg',
 		scores: [
 			'5',
@@ -112,7 +112,7 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Adele Adkins',
+		name: 'Knippy',
 		photo: 'https://i1.imgiz.com/data/videoshots/6829/6829475-6461.jpg',
 		scores: [
 			'5',
