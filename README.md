@@ -1,6 +1,6 @@
 # FriendFinder
 
-To use our web service, simply go to our homepage and take our state-of-the-art survey. Immediately after submitting the survey, your perfect best friend will pop up. We also have an API you can access to the network's users and their personalized information. For research purposes.
+To use our web service, simply go to our homepage and take our survey. Immediately after submitting the survey, your perfect best friend will pop up. There is also an API you can access to the network's users and their personalized information. For research purposes.
 
 ## Explain
 - Our server.js file sets up the Express server, specifying our port number, the npm packages that need to be loaded, and also the routes, which we have externalized
